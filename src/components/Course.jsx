@@ -10,7 +10,7 @@ const Navbar = () => {
                 <div className="course_content_list_link" >
                     <h5 className="course_content_heading" >HTML Tutorials</h5>
                     <Link className="course_content_link" to='/coursHome'>HTML Home</Link>
-                    <Link className="course_content_link" to='/course1'>HTML Introduction</Link>
+                    <Link className="course_content_link" to='/course1'>What is exactly HTML?</Link>
                     <Link className="course_content_link" to='/course2'>HTML Editors</Link>
                     <Link className="course_content_link" to='/course3'>HTML Basic</Link>
                     <Link className="course_content_link" to='/course4'>HTML Elements</Link>

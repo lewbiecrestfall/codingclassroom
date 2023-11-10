@@ -5,7 +5,7 @@ import './Navbar.css'
 
 const Navbar = () => {
     return (<>
-    <div className="back_btn"><Link className="btn" to='../'>Back Home</Link></div>
+   
         <div className="Course_Home">
 <h1>Let's HTML :) </h1>
         </div>

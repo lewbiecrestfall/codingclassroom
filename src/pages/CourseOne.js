@@ -4,8 +4,8 @@ import './contents.css'
 import CourseBanner from '../assest/coursebanner.jpg'
 
 const CourseOne = () => {
-  return (
-  
+  return (<>
+    <div className="back_btn"><Link className="btn" to='../'>Back Home</Link></div>
        <div className="right_content" >
                         <h1 className="content-heading_big">HTML Tutorials</h1>
                         <div className="real_content">
@@ -59,7 +59,7 @@ const CourseOne = () => {
                     </div>
                     </div>
   
-  )
+                    </>)
 }
 
 export default CourseOne

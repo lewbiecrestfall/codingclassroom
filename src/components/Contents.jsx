@@ -1,9 +1,9 @@
-import React from 'react'
+import React  from 'react'
 import './Contents.css'
 import CourseBanner from '../assest/coursebanner.jpg'
 
 const Contents = () => {
-  return (
+  return (<>
   
        <div className="right_content" >
                         <h1 className="content-heading_big">HTML Tutorials</h1>
@@ -57,7 +57,7 @@ const Contents = () => {
                     </div>
                     </div>
   
-  )
+                    </>)
 }
 
 export default Contents
